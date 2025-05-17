@@ -3,7 +3,7 @@ def filtrar(movtreino):
     crud = open("arquivo crud.txt", "r", encoding='utf8')
     linhascrud = crud.readlines()
     crud.close()
-    filtrando = open("Filtragem.txt", "w", encoding='utf8')
+    filtrando = open("Filtro.txt", "w", encoding='utf8')
 
     for i in range(len(linhascrud)):
         if movtreino in linhascrud[i]:
